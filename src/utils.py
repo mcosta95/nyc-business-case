@@ -1,4 +1,12 @@
 import pandas as pd
+import re
+
+def clean_text_generic(text):
+    if pd.isna(text):
+        return ""
+    text = re.sub(r'[^\w\s]', '', text.lower())
+    text = re.sub(r'\s+', ' ', text)
+    return text.strip()
 
 def highlight_high_percent(s, thr=50):
     is_high = s > thr
