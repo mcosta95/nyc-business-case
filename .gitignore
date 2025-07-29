@@ -1,0 +1,13 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+
+# Environment variables
+.env
+
+# UV lock
+uv.lock
+
+.DS_STORE
