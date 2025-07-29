@@ -9,3 +9,5 @@ __pycache__/
 
 # UV lock
 uv.lock
+
+.DS_STORE
