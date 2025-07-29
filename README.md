@@ -50,3 +50,26 @@ To enable Large Language Model (LLM) functionality (e.g., for generating `violat
    ```
 
 Note: For privaty reasons, the API key is not included in this repository.
+
+
+## Project structure
+
+<pre><code>.
+├── data
+│   └── data.csv
+├── final_notebook
+│   └── main.ipynb
+├── pyproject.toml
+├── README.md
+├── src
+│   ├── config.py
+│   ├── llm_call.py
+│   ├── model.py
+│   ├── plots.py
+│   └── utils.py
+└── uv.lock
+</code></pre>
+
+For the notebook to have a lot of extra information I added a lot of code in different scripts located on the `src` folder.
+
+To run the code is just select the kernel on the notebook `main.ipynb` located on `final_notebook`folder and run each sell, after all the setup.
